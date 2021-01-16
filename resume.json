@@ -1,0 +1,505 @@
+{
+  "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
+  "basics": {
+    "name": "Maarten Paauw",
+    "label": "Software Engineer",
+    "image": "https://www.github.com/maartenpaauw.png?size=500",
+    "email": "maartenpaauw@gmail.com",
+    "phone": "+31 (0)6 578 37 765",
+    "url": "https://www.maartenpaauw.com/",
+    "summary": "Welkom op mijn portfolio. Ik ben een enthousiaste software engineer. Hier vind je alle informatie over mij en mijn projecten. Kijk rustig rond en veel plezier! Als je vragen hebt hoor ik het graag.",
+    "location": {
+      "address": "Kleyn Proffijtlaan 28",
+      "postalCode": "2343 KB",
+      "city": "Oegstgeest",
+      "countryCode": "NL",
+      "region": "Zuid Holland"
+    },
+    "profiles": [
+      {
+        "network": "GitHub",
+        "username": "maartenpaauw",
+        "url": "https://github.com/maartenpaauw"
+      },
+      {
+        "network": "LinkedIn",
+        "username": "paauw",
+        "url": "https://www.linkedin.com/in/paauw"
+      },
+      {
+        "network": "Stack Overflow",
+        "username": "maartenpaauw",
+        "url": "https://stackoverflow.com/users/2940668/maartenpaauw"
+      },
+      {
+        "network": "Telegram",
+        "username": "maartenpaauw",
+        "url": "https://t.me/maartenpaauw"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "SWIS",
+      "location": "3e Binnenvestgracht 23T1, 2312 NR Leiden",
+      "description": "Een digital agency die maatwerk applicaties maakt.",
+      "position": "Developer",
+      "url": "https://www.swis.nl/",
+      "startDate": "2019-10-01",
+      "summary": "Alle voorkomende werkzaamheden op het gebied van development.",
+      "highlights": [
+        "Applicaties gemaakt, in opdracht van Lely, die dagelijkse taken van een boer automatiseren."
+      ]
+    },
+    {
+      "name": "Appsketch",
+      "location": "Brouwerstraat 37, 2231 HN Rijnsburg",
+      "description": "DTP en ICT.",
+      "position": "Zelfstandig ondernemer",
+      "url": "http://www.appsketch.nl/",
+      "startDate": "2012-01-01",
+      "endDate": "2019-12-31",
+      "summary": "Allround DTP en ICT bedrijf. Complete verzorging van uw grafisch ontwerp / huisstijl en al het drukwerk, websites en applicaties.",
+      "highlights": []
+    },
+    {
+      "name": "Basalt",
+      "location": "Wassenaarseweg 501, 2333 AL Leiden",
+      "description": "Excellente revalidatiegeneeskunde",
+      "position": "Onderzoeker patiëntmotivatie (afstudeerproject)",
+      "url": "https://www.basaltrevalidatie.nl/",
+      "startDate": "2019-02-04",
+      "endDate": "2019-07-19",
+      "summary": "Motivatie tot gebruik van digitale CROM.",
+      "highlights": []
+    },
+    {
+      "name": "DevMob B.V.",
+      "location": "Schiedamsedijk 50, 3011 ED Rotterdam",
+      "description": "Een digital agency die maatwerk applicaties maakt.",
+      "position": "Full Stack Developer",
+      "url": "https://www.devmob.com/",
+      "startDate": "2018-09-03",
+      "endDate": "2019-02-01",
+      "summary": "Stagiair full stack developer bij DevMob B.V.",
+      "highlights": []
+    },
+    {
+      "name": "Gracious Studios",
+      "location": "Laan van Waalhaven 460, 2497 GR Den Haag",
+      "description": "",
+      "position": "Web developer",
+      "url": "https://www.graciousstudios.nl/",
+      "startDate": "2015-01-01",
+      "endDate": "2015-05-01",
+      "summary": "Stagiair web developer bij Gracious Studios.",
+      "highlights": []
+    },
+    {
+      "name": "Station Drukwerk",
+      "location": "Scheepmakerstraat 5-G, 2222 AB Katwijk aan Zee",
+      "description": "Drukwerk, Creatie & Signmaking - Wij maken jouw communicatie tastbaar en zichtbaar.",
+      "position": "Allround DTP-er",
+      "url": "https://www.stationdrukwerk.nl/",
+      "startDate": "2012-06-01",
+      "endDate": "2014-03-01",
+      "summary": "Alle voorkomende werkzaamheden op het gebied van DTP.",
+      "highlights": []
+    },
+    {
+      "name": "Olympia Uitzendbureau",
+      "location": "Kort Rapenburg 6, 2311 GC Leiden",
+      "description": "",
+      "position": "Oproepkracht",
+      "url": "https://www.olympia.nl/",
+      "startDate": "2012-05-01",
+      "endDate": "2012-07-01",
+      "summary": "Oproepkracht bij Olympia Uitzendbureau.",
+      "highlights": []
+    },
+    {
+      "name": "Station Drukwerk",
+      "location": "Scheepmakerstraat 5-G, 2222 AB Katwijk aan Zee",
+      "description": "Drukwerk, Creatie & Signmaking - Wij maken jouw communicatie tastbaar en zichtbaar.",
+      "position": "Allround DTP-er",
+      "url": "https://www.stationdrukwerk.nl/",
+      "startDate": "2010-11-01",
+      "endDate": "2012-04-01",
+      "summary": "Alle voorkomende werkzaamheden op het gebied van DTP als stagiair.",
+      "highlights": []
+    },
+    {
+      "name": "Restaurant De Zwaan",
+      "description": "Boulevard 111, 2225 HC Katwijk aan Zee",
+      "position": "Medewerker",
+      "url": "http://www.restaurant-dezwaan.nl/",
+      "startDate": "2010-02-01",
+      "endDate": "2011-01-01",
+      "summary": "Afwas- en buffetmedewerker.",
+      "highlights": []
+    },
+    {
+      "name": "Sandd",
+      "location": "Kanaalstraat 25, 2231 KB Rijnsburg",
+      "description": "",
+      "position": "Postbezorger",
+      "url": "https://www.sandd.nl/",
+      "startDate": "2009-02-01",
+      "endDate": "2009-07-01",
+      "summary": "Het bezorgen van post, reclame en brieven.",
+      "highlights": []
+    },
+    {
+      "name": "Buijze Pers",
+      "location": "Boekerslootlaan 49, 2201 BT Noordwijk",
+      "description": "",
+      "position": "Krantenjongen",
+      "url": "http://buijzepers.nl/",
+      "startDate": "2007-09-01",
+      "endDate": "2009-02-01",
+      "summary": "Het bezorgen van de Woensdag- en Weekendkrant.",
+      "highlights": []
+    }
+  ],
+  "volunteer": [
+    {
+      "organization": "Katwijkse Zeeverkenners",
+      "position": "Hoofdbegeleider Wildevaert",
+      "url": "https://www.katwijksezeeverkenners.nl/",
+      "startDate": "2012-09-01",
+      "endDate": "2014-02-01",
+      "summary": "Hoofdbegeleider op de Wildevaert groep binnen de Katwijkse Zeeverkenners.",
+      "highlights": []
+    },
+    {
+      "organization": "Katwijkse Zeeverkenners",
+      "position": "Voorzitter Wildevaert",
+      "url": "https://www.katwijksezeeverkenners.nl/",
+      "startDate": "2011-09-01",
+      "endDate": "2012-09-01",
+      "summary": "Voorzitter op de Wildevaert groep binnen de Katwijkse Zeeverkenners.",
+      "highlights": []
+    }
+  ],
+  "education": [
+    {
+      "institution": "Hogeschool Leiden",
+      "url": "https://www.hsleiden.nl/",
+      "area": "Informatica",
+      "studyType": "Bachelor",
+      "startDate": "2015-09-01",
+      "endDate": "2019-07-01",
+      "score": "",
+      "courses": []
+    },
+    {
+      "institution": "Hogeschool Rotterdam",
+      "url": "https://www.hogeschoolrotterdam.nl/",
+      "area": "Urban Interaction Design (UrbanlxD) HP",
+      "studyType": "Minor",
+      "startDate": "2017-08-21",
+      "endDate": "2018-02-02",
+      "score": "",
+      "courses": []
+    },
+    {
+      "institution": "Hogeschool Leiden",
+      "url": "https://www.hsleiden.nl/",
+      "area": "Propedeuse",
+      "studyType": "Bachelor",
+      "startDate": "2015-09-01",
+      "endDate": "2016-06-01",
+      "score": "",
+      "courses": []
+    },
+    {
+      "institution": "Grafisch Lyceum Rotterdam",
+      "url": "https://www.glr.nl/",
+      "area": "Media Developer",
+      "studyType": "MBO 4",
+      "startDate": "2012-09-01",
+      "endDate": "2015-07-01",
+      "score": "",
+      "courses": []
+    },
+    {
+      "institution": "Grafisch Lyceum Rotterdam",
+      "url": "https://www.glr.nl/",
+      "area": "Allround DTP-er",
+      "studyType": "MBO 3",
+      "startDate": "2009-09-01",
+      "endDate": "2012-07-01",
+      "score": "",
+      "courses": []
+    },
+    {
+      "institution": "Da Vinci College",
+      "url": "https://www.davinci.nl/",
+      "area": "Middelbaar Algemeen Voortgezet Onderwijs",
+      "studyType": "VMBO TL",
+      "startDate": "2005-09-01",
+      "endDate": "2009-07-01",
+      "score": "",
+      "courses": []
+    }
+  ],
+  "awards": [],
+  "certificates": [
+    {
+      "name": "Laravel Certification",
+      "date": "2020-02-23",
+      "url": "https://exam.laravelcert.com/is/maarten-paauw/certified-since/2020-02-23",
+      "issuer": "https://certification.laravel.com/"
+    },
+    {
+      "name": "The Complete React Web Developer Course (with Redux)",
+      "date": "2019-01-29",
+      "url": "https://raw.githubusercontent.com/maartenpaauw/resume/main/certificates/UC-KK22I7C8.pdf",
+      "issuer": "Udemy"
+    },
+    {
+      "name": "Learn what's new in PHP 7",
+      "date": "2018-09-13",
+      "url": "https://raw.githubusercontent.com/maartenpaauw/resume/main/certificates/UC-6BQJ0F9Y.pdf",
+      "issuer": "Udemy"
+    },
+    {
+      "name": "Essentials in JavaScript ES6",
+      "date": "2018-01-12",
+      "url": "https://raw.githubusercontent.com/maartenpaauw/resume/main/certificates/UC-E5CQ0XC0.pdf",
+      "issuer": "Udemy"
+    },
+    {
+      "name": "Regex Academy: An Introduction To Text Parsing Sorcery",
+      "date": "2017-12-31",
+      "url": "https://raw.githubusercontent.com/maartenpaauw/resume/main/certificates/UC-5OKCFMFF.pdf",
+      "issuer": "Udemy"
+    },
+    {
+      "name": "The Complete Node.js Developer Course",
+      "date": "2017-08-05",
+      "url": "https://raw.githubusercontent.com/maartenpaauw/resume/main/certificates/UC-FHAK48RX.pdf",
+      "issuer": "Udemy"
+    },
+    {
+      "name": "Vue JS 2 - The Complete Guide",
+      "date": "2017-06-07",
+      "url": "https://raw.githubusercontent.com/maartenpaauw/resume/main/certificates/UC-ZABTRLUO.pdf",
+      "issuer": "https://www.udemy.com/vuejs-2-the-complete-guide/"
+    },
+    {
+      "name": "Vue JS - Mastering Web Apps",
+      "date": "2017-05-12",
+      "url": "https://raw.githubusercontent.com/maartenpaauw/resume/main/certificates/UC-HO61683N.pdf",
+      "issuer": "Udemy"
+    },
+    {
+      "name": "Microsoft Certified Professional",
+      "date": "2014-07-01",
+      "url": "https://raw.githubusercontent.com/maartenpaauw/resume/main/certificates/E867-7660.pdf",
+      "issuer": "Microsoft"
+    },
+    {
+      "name": "Microsoft Technology Associate: Web Development Fundamentals",
+      "date": "2014-07-01",
+      "url": "https://raw.githubusercontent.com/maartenpaauw/resume/main/certificates/E867-7659.pdf",
+      "issuer": "Microsoft"
+    }
+  ],
+  "publications": [],
+  "skills": [
+    {
+      "name": "Development",
+      "level": "Master",
+      "keywords": [
+        "CSS3",
+        "Cypress",
+        "Git",
+        "GitHub",
+        "HTML5",
+        "Javascript",
+        "Jest",
+        "MySQL",
+        "Nginx",
+        "Node.js",
+        "PHP",
+        "SCSS",
+        "Typescript"
+      ]
+    },
+    {
+      "name": "Frameworks",
+      "level": "Master",
+      "keywords": [
+        "Laravel",
+        "Vue.js"
+      ]
+    },
+    {
+      "name": "DTP Allround",
+      "level": "Master",
+      "keywords": [
+        "Acrobat",
+        "Bridge",
+        "Illustrator",
+        "InDesign",
+        "Photoshop"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "Nederlands",
+      "fluency": "Moedertaal"
+    },
+    {
+      "language": "Engels",
+      "fluency": "Uitstekend"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Apple",
+      "keywords": []
+    },
+    {
+      "name": "Bella & Sarah",
+      "keywords": []
+    },
+    {
+      "name": "Films & Series",
+      "keywords": []
+    },
+    {
+      "name": "Games",
+      "keywords": [
+        "Counter-Strike: Global Offensive",
+        "PlayerUnknown's Battlegrounds",
+        "Valorant"
+      ]
+    },
+    {
+      "name": "Gitaar Spelen",
+      "keywords": []
+    },
+    {
+      "name": "Home Assistant",
+      "keywords": []
+    },
+    {
+      "name": "Koffie",
+      "keywords": []
+    },
+    {
+      "name": "Muziek",
+      "keywords": []
+    },
+    {
+      "name": "Programmeren",
+      "keywords": []
+    },
+    {
+      "name": "Reizen",
+      "keywords": []
+    }
+  ],
+  "references": [
+    {
+      "name": "Pieter Paauw",
+      "reference": "Maarten Paauw heeft verschillende DTP-werkzaamheden voor mij uitgevoerd. Zo heeft hij verschillende huisstijlen ontwikkeld en promotiemateriaal gemaakt. Mij is opgevallen dat Maarten hoge kwaliteit werk levert en zijn afspraken altijd nakomt. Maarten is betrouwbaar, zeer vakkundig en prettig in de omgang. Hij stelt de klant centraal en weet globale ideeën van de opdrachtgever te vertalen naar concrete ontwerpen. Voor al het DTP werk kan ik Maarten van harte aanbevelen."
+    },
+    {
+      "name": "Laura Plug",
+      "reference": "Maarten Paauw heeft mij goed geholpen met het opzetten van mijn blog op WordPress.org."
+    }
+  ],
+  "projects": [
+    {
+      "name": "Laravel Undraw components",
+      "description": "Laravel Blade componenten voor Undraw illustraties",
+      "highlights": [],
+      "keywords": [],
+      "startDate": "2020-05-11",
+      "url": "https://github.com/maartenpaauw/undraw",
+      "roles": [
+        "Developer"
+      ],
+      "entity": "Personal",
+      "type": "Web Development"
+    },
+    {
+      "name": "Home Assistant Community Themes",
+      "description": "Alle Home Assistant community thema's in één plek.",
+      "highlights": [
+        "Alle thema's zijn automatisch installeerbaar via Home Assistant Community Store."
+      ],
+      "keywords": [],
+      "startDate": "2018-02-05",
+      "url": "https://github.com/home-assistant-community-themes",
+      "roles": [
+        "Developer"
+      ],
+      "entity": "Personal",
+      "type": "Home Automation"
+    },
+    {
+      "name": "JSON Resume to vCard",
+      "description": "Converteert een JSON Resume bestand naar een vCard.",
+      "highlights": [],
+      "keywords": [],
+      "startDate": "2018-01-15",
+      "url": "https://www.npmjs.com/package/json-resume-to-vcard",
+      "roles": [
+        "Developer"
+      ],
+      "entity": "Personal",
+      "type": "Web Development"
+    },
+    {
+      "name": "Flat UI Colors helper",
+      "description": "CSS helpers voor Flat UI Colors.",
+      "highlights": [],
+      "keywords": [],
+      "startDate": "2017-08-20",
+      "url": "https://www.npmjs.com/package/flat-ui-colors-helper",
+      "roles": [
+        "Developer"
+      ],
+      "entity": "Personal",
+      "type": "Web Development"
+    },
+    {
+      "name": "Nummering",
+      "description": "Een gemakkelijke data merge tool voor InDesign.",
+      "highlights": [],
+      "keywords": [],
+      "startDate": "2017-06-01",
+      "url": "http://www.nummering.nl/",
+      "roles": [
+        "Developer"
+      ],
+      "entity": "Personal",
+      "type": "Web Development"
+    },
+    {
+      "name": "YoPHP",
+      "description": "Een PHP wrapper voor Yo.",
+      "highlights": [
+        "Een vermelding naar dit project vanuit de officiële API documentatie van Yo."
+      ],
+      "keywords": [],
+      "startDate": "2014-08-18",
+      "url": "https://github.com/maartenpaauw/YoPHP",
+      "roles": [
+        "Developer"
+      ],
+      "entity": "Personal",
+      "type": "Web Development"
+    }
+  ],
+  "meta": {
+    "canonical": "https://raw.githubusercontent.com/maartenpaauw/resume/main/resume.json",
+    "version": "v1.0.0",
+    "lastModified": "2021-01-13T17:14:45"
+  }
+}
