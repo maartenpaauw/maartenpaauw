@@ -189,7 +189,7 @@
       "studyType": "Bachelor",
       "startDate": "2015-09-01",
       "endDate": "2019-07-01",
-      "score": "",
+      "score": "https://github.com/maartenpaauw/resume/raw/main/diplomas/hogeschool-leiden-informatica-bachelor.pdf",
       "courses": []
     },
     {
@@ -199,7 +199,7 @@
       "studyType": "Minor",
       "startDate": "2017-08-21",
       "endDate": "2018-02-02",
-      "score": "",
+      "score": "https://github.com/maartenpaauw/resume/raw/main/diplomas/hogeschool-rotterdam-urban-interaction-design-urbanlxd-hp-minor.pdf",
       "courses": []
     },
     {
@@ -209,7 +209,7 @@
       "studyType": "Bachelor",
       "startDate": "2015-09-01",
       "endDate": "2016-06-01",
-      "score": "",
+      "score": "https://github.com/maartenpaauw/resume/raw/main/diplomas/hogeschool-leiden-propedeuse-bachelor.pdf",
       "courses": []
     },
     {
@@ -219,7 +219,7 @@
       "studyType": "MBO 4",
       "startDate": "2012-09-01",
       "endDate": "2015-07-01",
-      "score": "",
+      "score": "https://github.com/maartenpaauw/resume/raw/main/diplomas/grafisch-lyceum-rotterdam-media-developer-mbo-4.pdf",
       "courses": []
     },
     {
@@ -229,7 +229,7 @@
       "studyType": "MBO 3",
       "startDate": "2009-09-01",
       "endDate": "2012-07-01",
-      "score": "",
+      "score": "https://github.com/maartenpaauw/resume/raw/main/diplomas/grafisch-lyceum-rotterdam-allround-dtp-er-mbo-3.pdf",
       "courses": []
     },
     {
@@ -239,7 +239,7 @@
       "studyType": "VMBO TL",
       "startDate": "2005-09-01",
       "endDate": "2009-07-01",
-      "score": "",
+      "score": "https://github.com/maartenpaauw/resume/raw/main/diplomas/da-vinci-college-middelbaar-algemeen-voortgezet-onderwijs-vmbo-tl.pdf",
       "courses": []
     }
   ],
