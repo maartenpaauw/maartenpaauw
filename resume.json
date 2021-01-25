@@ -130,7 +130,8 @@
     },
     {
       "name": "Restaurant De Zwaan",
-      "description": "Boulevard 111, 2225 HC Katwijk aan Zee",
+      "location": "Boulevard 111, 2225 HC Katwijk aan Zee",
+      "description": "",
       "position": "Medewerker",
       "url": "https://restaurant-dezwaan.nl/",
       "startDate": "2010-02-01",
