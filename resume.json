@@ -40,12 +40,23 @@
   },
   "work": [
     {
+      "name": "Crony Robots",
+      "location": "Papendorpseweg 75, 3528 BJ Utrecht",
+      "description": "Platform waarmee processen gerobotiseerd kunnen worden.",
+      "position": "Backend Developer",
+      "url": "https://cronyrobots.nl/",
+      "startDate": "2021-10-11",
+      "summary": "Werkzaamheden aan meerdere Laravel applicaties waarmee processen gerobotiseerd kunnen worden.",
+      "highlights": []
+    },
+    {
       "name": "SWIS",
       "location": "3e Binnenvestgracht 23T1, 2312 NR Leiden",
       "description": "Een digital agency die maatwerk applicaties maakt.",
       "position": "Developer",
       "url": "https://swis.nl/",
       "startDate": "2019-10-01",
+      "endDate": "2021-09-30",
       "summary": "Alle voorkomende werkzaamheden op het gebied van development.",
       "highlights": [
         "Applicaties gemaakt, in opdracht van Lely, die dagelijkse taken van een boer automatiseren."
@@ -500,7 +511,7 @@
   ],
   "meta": {
     "canonical": "https://raw.githubusercontent.com/maartenpaauw/resume/main/resume.json",
-    "version": "v1.0.4",
-    "lastModified": "2021-01-16T09:44:49"
+    "version": "v1.0.5",
+    "lastModified": "2021-10-27T11:25:09"
   }
 }
