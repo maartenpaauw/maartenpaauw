@@ -427,8 +427,23 @@
   ],
   "projects": [
     {
+      "name": "Laravel Charts.css",
+      "description": "Laravel component voor het maken van grafieken op basis van CSS.",
+      "highlights": [
+        "Vermelding in de wekelijkse Laravel nieuwsbrief."
+      ],
+      "keywords": [],
+      "startDate": "2021-05-28",
+      "url": "https://github.com/maartenpaauw/laravel-charts-css",
+      "roles": [
+        "Developer"
+      ],
+      "entity": "Personal",
+      "type": "Web Development"
+    },
+    {
       "name": "Laravel Undraw components",
-      "description": "Laravel Blade componenten voor Undraw illustraties",
+      "description": "Laravel Blade componenten voor Undraw illustraties.",
       "highlights": [],
       "keywords": [],
       "startDate": "2020-05-11",
@@ -511,7 +526,7 @@
   ],
   "meta": {
     "canonical": "https://raw.githubusercontent.com/maartenpaauw/resume/main/resume.json",
-    "version": "v1.0.5",
-    "lastModified": "2021-10-27T11:25:09"
+    "version": "v1.0.6",
+    "lastModified": "2021-10-27T14:23:12"
   }
 }
