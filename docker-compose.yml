@@ -1,0 +1,16 @@
+version: '3'
+
+services:
+  html:
+    build: .
+    command: export "export/resume.html" --format html --theme actual
+    volumes:
+      - ./export:/resume/export
+
+  serve:
+    build: .
+    command: serve --port 8080 --theme actual
+    volumes:
+      - ./resume.json:/resume/resume.json
+    ports:
+      - "8080:8080"

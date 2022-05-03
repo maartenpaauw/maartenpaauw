@@ -1,0 +1,9 @@
+.idea/
+certificates/
+diplomas/
+export/
+node_modules/
+.dockerignore
+docker-compose.yml
+.gitignore
+Dockerfile
