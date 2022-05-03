@@ -3,9 +3,9 @@ version: '3'
 services:
   html:
     build: .
-    command: export "export/resume.html" --format html --theme actual
+    command: export "export/index.html" --format html --theme actual
     volumes:
-      - ./export:/resume/export
+      - ./docs:/resume/export
 
   serve:
     build: .

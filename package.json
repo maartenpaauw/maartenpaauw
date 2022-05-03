@@ -2,5 +2,11 @@
   "dependencies": {
     "jsonresume-theme-actual": "^0.1.6",
     "resume-cli": "^3.0.7"
+  },
+  "devDependencies": {
+    "patch-package": "^6.4.7"
+  },
+  "scripts": {
+    "postinstall": "patch-package"
   }
 }
