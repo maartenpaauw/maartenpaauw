@@ -7,7 +7,7 @@
     "email": "maartenpaauw@gmail.com",
     "phone": "+31 (0)6 578 37 765",
     "url": "https://maartenpaauw.com/",
-    "summary": "Welkom op mijn portfolio. Ik ben een enthousiaste software engineer. Hier vind je alle informatie over mij en mijn projecten. Kijk rustig rond en veel plezier! Als je vragen hebt hoor ik het graag.",
+    "summary": "Ik ben een **software engineer** met een achtergrond in de grafische wereld. In 2019 ben ik afgestudeerd aan de Hogeschool Leiden in Interactie Technologie. In 2012 heb ik twee MBO-opleidingen afgerond aan het Grafisch Lyceum in Rotterdam, te weten DTP Allround en mediatechnologie. Ik ben creatief, werk nauwkeurig en ben geïnteresseerd in alles wat met development maken heeft. Ik heb ruim **vijf jaar** werkervaring op het terrein van **Laravel** en **Vue.js**. Ook ben een echte teamspeler die makkelijk het contact met andere mensen aangaat. Doorzettingsvermogen hoort bij mijn karakter en ga graag uitdagingen aan. In een groep neem ik graag de leiding als het gaat om problemen oplossen.",
     "location": {
       "address": "Kleyn Proffijtlaan 28",
       "postalCode": "2343 KB",
@@ -70,7 +70,7 @@
       "url": "https://appsketch.nl/",
       "startDate": "2012-01-01",
       "endDate": "2019-12-31",
-      "summary": "Allround DTP en ICT bedrijf. Complete verzorging van uw grafisch ontwerp / huisstijl en al het drukwerk, websites en applicaties.",
+      "summary": "Allround DTP en ICT-bedrijf. Complete verzorging van uw grafisch ontwerp / huisstijl en al het drukwerk, websites en applicaties. Deze werkzaamheden verrichtte ik als zelfstandig ondernemer naast mijn studie.",
       "highlights": []
     },
     {
@@ -100,7 +100,7 @@
       "location": "Laan van Waalhaven 460, 2497 GR Den Haag",
       "description": "",
       "position": "Web developer",
-      "url": "https://graciousstudios.nl/",
+      "url": "https://gracious.nl/",
       "startDate": "2015-01-01",
       "endDate": "2015-05-01",
       "summary": "Stagiair web developer bij Gracious Studios.",
@@ -111,21 +111,10 @@
       "location": "Scheepmakerstraat 5-G, 2222 AB Katwijk aan Zee",
       "description": "Drukwerk, Creatie & Signmaking - Wij maken jouw communicatie tastbaar en zichtbaar.",
       "position": "Allround DTP-er",
-      "url": "https://stationdrukwerk.nl/",
+      "url": "https://duocore.nl/",
       "startDate": "2012-06-01",
       "endDate": "2014-03-01",
       "summary": "Alle voorkomende werkzaamheden op het gebied van DTP.",
-      "highlights": []
-    },
-    {
-      "name": "Olympia Uitzendbureau",
-      "location": "Kort Rapenburg 6, 2311 GC Leiden",
-      "description": "",
-      "position": "Oproepkracht",
-      "url": "https://olympia.nl/",
-      "startDate": "2012-05-01",
-      "endDate": "2012-07-01",
-      "summary": "Oproepkracht bij Olympia Uitzendbureau.",
       "highlights": []
     },
     {
@@ -133,43 +122,10 @@
       "location": "Scheepmakerstraat 5-G, 2222 AB Katwijk aan Zee",
       "description": "Drukwerk, Creatie & Signmaking - Wij maken jouw communicatie tastbaar en zichtbaar.",
       "position": "Allround DTP-er",
-      "url": "https://stationdrukwerk.nl/",
+      "url": "https://duocore.nl/",
       "startDate": "2010-11-01",
       "endDate": "2012-04-01",
       "summary": "Alle voorkomende werkzaamheden op het gebied van DTP als stagiair.",
-      "highlights": []
-    },
-    {
-      "name": "Restaurant De Zwaan",
-      "location": "Boulevard 111, 2225 HC Katwijk aan Zee",
-      "description": "Strandtent.",
-      "position": "Medewerker",
-      "url": "https://restaurant-dezwaan.nl/",
-      "startDate": "2010-02-01",
-      "endDate": "2011-01-01",
-      "summary": "Afwas- en buffetmedewerker.",
-      "highlights": []
-    },
-    {
-      "name": "Sandd",
-      "location": "Kanaalstraat 25, 2231 KB Rijnsburg",
-      "description": "",
-      "position": "Postbezorger",
-      "url": "https://sandd.nl/",
-      "startDate": "2009-02-01",
-      "endDate": "2009-07-01",
-      "summary": "Het bezorgen van post, reclame en brieven.",
-      "highlights": []
-    },
-    {
-      "name": "Buijze Pers",
-      "location": "Boekerslootlaan 49, 2201 BT Noordwijk",
-      "description": "",
-      "position": "Krantenjongen",
-      "url": "https://buijzepers.nl/",
-      "startDate": "2007-09-01",
-      "endDate": "2009-02-01",
-      "summary": "Het bezorgen van de Woensdag- en Weekendkrant.",
       "highlights": []
     }
   ],
@@ -326,6 +282,7 @@
       "keywords": [
         "CSS3",
         "Cypress",
+        "Docker",
         "Git",
         "GitHub",
         "HTML5",
@@ -336,6 +293,7 @@
         "Node.js",
         "PHP",
         "SCSS",
+        "Selenium",
         "Typescript"
       ]
     },
@@ -371,14 +329,6 @@
   ],
   "interests": [
     {
-      "name": "Apple",
-      "keywords": []
-    },
-    {
-      "name": "Bella & Sarah",
-      "keywords": []
-    },
-    {
       "name": "Films & Series",
       "keywords": []
     },
@@ -386,7 +336,6 @@
       "name": "Games",
       "keywords": [
         "Counter-Strike: Global Offensive",
-        "PlayerUnknown's Battlegrounds",
         "Valorant"
       ]
     },
@@ -395,15 +344,15 @@
       "keywords": []
     },
     {
-      "name": "Home Assistant",
-      "keywords": []
-    },
-    {
       "name": "Koffie",
       "keywords": []
     },
     {
       "name": "Muziek",
+      "keywords": []
+    },
+    {
+      "name": "Open Source",
       "keywords": []
     },
     {
@@ -427,12 +376,31 @@
   ],
   "projects": [
     {
+      "name": "Laravel specification pattern",
+      "description": "Laravel pakket voor het filteren van een collectie op basis van specificaties.",
+      "highlights": [],
+      "keywords": [
+        "Laravel",
+        "PHP"
+      ],
+      "startDate": "2022-01-02",
+      "url": "https://github.com/maartenpaauw/laravel-specification-pattern",
+      "roles": [
+        "Developer"
+      ],
+      "entity": "Personal",
+      "type": "Web Development"
+    },
+    {
       "name": "Laravel Charts.css",
       "description": "Laravel component voor het maken van grafieken op basis van CSS.",
       "highlights": [
         "Vermelding in de wekelijkse Laravel nieuwsbrief."
       ],
-      "keywords": [],
+      "keywords": [
+        "Laravel",
+        "PHP"
+      ],
       "startDate": "2021-05-28",
       "url": "https://github.com/maartenpaauw/laravel-charts-css",
       "roles": [
@@ -445,7 +413,10 @@
       "name": "Laravel Undraw components",
       "description": "Laravel Blade componenten voor Undraw illustraties.",
       "highlights": [],
-      "keywords": [],
+      "keywords": [
+        "Laravel",
+        "PHP"
+      ],
       "startDate": "2020-05-11",
       "url": "https://github.com/maartenpaauw/undraw",
       "roles": [
@@ -460,7 +431,9 @@
       "highlights": [
         "Alle thema's zijn automatisch installeerbaar via Home Assistant Community Store."
       ],
-      "keywords": [],
+      "keywords": [
+        "Home Assistant"
+      ],
       "startDate": "2018-02-05",
       "url": "https://github.com/home-assistant-community-themes",
       "roles": [
@@ -473,7 +446,10 @@
       "name": "JSON Resume to vCard",
       "description": "Converteert een JSON Resume bestand naar een vCard.",
       "highlights": [],
-      "keywords": [],
+      "keywords": [
+        "JavaScript",
+        "Node.js"
+      ],
       "startDate": "2018-01-15",
       "url": "https://npmjs.com/package/json-resume-to-vcard",
       "roles": [
@@ -486,7 +462,10 @@
       "name": "Flat UI Colors helper",
       "description": "CSS helpers voor Flat UI Colors.",
       "highlights": [],
-      "keywords": [],
+      "keywords": [
+        "CSS",
+        "SCSS"
+      ],
       "startDate": "2017-08-20",
       "url": "https://npmjs.com/package/flat-ui-colors-helper",
       "roles": [
@@ -499,7 +478,9 @@
       "name": "Nummering",
       "description": "Een gemakkelijke data merge tool voor InDesign.",
       "highlights": [],
-      "keywords": [],
+      "keywords": [
+        "Vue.js"
+      ],
       "startDate": "2017-06-01",
       "url": "https://nummering.nl/",
       "roles": [
@@ -514,7 +495,9 @@
       "highlights": [
         "Een vermelding naar dit project vanuit de officiële API documentatie van Yo."
       ],
-      "keywords": [],
+      "keywords": [
+        "PHP"
+      ],
       "startDate": "2014-08-18",
       "url": "https://github.com/maartenpaauw/YoPHP",
       "roles": [
@@ -526,7 +509,7 @@
   ],
   "meta": {
     "canonical": "https://raw.githubusercontent.com/maartenpaauw/resume/main/resume.json",
-    "version": "v1.0.6",
-    "lastModified": "2021-10-27T14:23:12"
+    "version": "v1.1.0",
+    "lastModified": "2022-05-03T14:01:19"
   }
 }
