@@ -12,10 +12,14 @@ index 2f79d8e..a5e498b 100644
      .skills .container .article span {
        display: block;
 diff --git a/node_modules/jsonresume-theme-actual/assets/template.pug b/node_modules/jsonresume-theme-actual/assets/template.pug
-index 67a8c92..6869182 100644
+index 67a8c92..2fff329 100644
 --- a/node_modules/jsonresume-theme-actual/assets/template.pug
 +++ b/node_modules/jsonresume-theme-actual/assets/template.pug
-@@ -4,7 +4,7 @@ html(lang="en")
+@@ -1,10 +1,11 @@
+ doctype html
+ html(lang="en")
+     head
++        link(rel="icon", href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>👨‍💻</text></svg>")
          meta(charset="utf-8")
          style
              include styles.css
