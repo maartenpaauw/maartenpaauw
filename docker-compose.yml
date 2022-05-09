@@ -1,6 +1,13 @@
 version: '3'
 
 services:
+  pdf:
+    build: .
+    command: export "export/resume.pdf" --format pdf --theme actual
+    volumes:
+      - ./resume.json:/resume/resume.json:ro
+      - ./docs:/resume/export
+
   html:
     build: .
     command: export "export/index.html" --format html --theme actual
