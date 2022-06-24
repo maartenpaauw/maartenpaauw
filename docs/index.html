@@ -12,7 +12,7 @@ ul, li {
   padding: 0;
 }
 
-span {
+span, q {
   display: block;
 }
 
@@ -34,15 +34,15 @@ a {
 }
 a[href] {
   text-decoration: underline;
-  text-decoration-color: #555555;
+  text-decoration-color: #888888;
 }
 
-p {
-  line-height: 1.2;
+p, q {
+  line-height: 1.25em;
 }
 
 li {
-  line-height: 1.3;
+  line-height: 1.35em;
 }
 li:first-child {
   margin-top: 0;
@@ -60,31 +60,11 @@ li:first-child {
 .table {
   width: 100%;
   display: table;
-  padding: 20px 0;
 }
 .table .main {
   display: table-cell;
   width: 70%;
   padding-right: 50px;
-}
-.table .main .highlights {
-  width: auto;
-  display: block;
-  padding: 0 10px;
-  margin-top: 12.3076923077px;
-  margin-bottom: 0;
-  columns: 2;
-  column-width: 310px;
-  column-gap: 10px;
-}
-.table .main .highlights li {
-  font-size: 14px;
-  list-style: none;
-  line-height: 1.2;
-}
-.table .main .highlights li:before {
-  content: "· ";
-  vertical-align: middle;
 }
 .table .side {
   display: table-cell;
@@ -92,8 +72,12 @@ li:first-child {
   padding-left: 50px;
   text-align: right;
 }
-.table .side p {
-  line-height: 1.3;
+
+.summary {
+  font-size: 15px;
+}
+.summary:empty {
+  display: none;
 }
 
 .section-title {
@@ -114,24 +98,42 @@ li:first-child {
   margin-top: 50px;
 }
 
+.padding-container-2 {
+  padding: 20px 0;
+}
+
 .margin-text-1 {
-  margin-top: 0.25em;
+  margin-top: 2px;
 }
 .margin-text-1:empty {
   display: none;
 }
 
 .margin-text-2 {
-  margin-top: 0.5em;
+  margin-top: 4px;
 }
 .margin-text-2:empty {
   display: none;
 }
 
 .margin-text-3 {
-  margin-top: 1em;
+  margin-top: 6px;
 }
 .margin-text-3:empty {
+  display: none;
+}
+
+.margin-text-4 {
+  margin-top: 8px;
+}
+.margin-text-4:empty {
+  display: none;
+}
+
+.margin-text-5 {
+  margin-top: 14px;
+}
+.margin-text-5:empty {
   display: none;
 }
 
@@ -203,6 +205,46 @@ li:first-child {
   font-family: monospace;
 }
 
+.main .highlights {
+  width: auto;
+  display: block;
+  padding: 0 10px;
+  margin-bottom: 0;
+  columns: 2;
+  column-width: 310px;
+  column-gap: 10px;
+}
+.main .highlights li {
+  font-size: 14px;
+  list-style: none;
+}
+.main .highlights li:before {
+  content: "· ";
+  vertical-align: middle;
+}
+.main .left {
+  display: table-cell;
+}
+.main .left .title {
+  font-size: 18px;
+  font-weight: bold;
+  display: block;
+}
+.main .left .subtitle {
+  font-size: 16px;
+  font-weight: lighter;
+  display: block;
+}
+.main .right {
+  text-align: right;
+  display: table-cell;
+}
+.main .right .date {
+  font-size: 15px;
+  font-weight: lighter;
+  white-space: nowrap;
+}
+
 .basics .main {
   vertical-align: middle;
 }
@@ -226,74 +268,45 @@ li:first-child {
   padding-top: 15px;
 }
 .basics .side .contact {
-  font-size: 18px;
   list-style-type: none;
 }
 .basics .side .contact li {
-  line-height: 1.5em;
-}
-.basics .summary {
-  font-size: 16px;
-  padding: 20px 0;
+  font-size: 18px;
+  line-height: 1.6em;
 }
 
-.work .header .table {
-  padding: 0;
+.links ul {
+  list-style: none;
 }
-.work .header .table .left {
-  display: table-cell;
-}
-.work .header .table .left .position {
-  font-size: 18px;
-  font-weight: bold;
-  display: block;
-}
-.work .header .table .left .company-location {
-  font-size: 15px;
-  font-weight: lighter;
-  display: block;
-}
-.work .header .table .left .company-location a {
-  text-decoration-color: #888888;
-}
-.work .header .table .right {
-  text-align: right;
-  display: table-cell;
-}
-.work .header .table .right .dates {
-  font-size: 15px;
-  font-weight: lighter;
-  white-space: nowrap;
-}
-.work .summary {
-  font-size: 16px;
-  padding: 0;
-  margin-top: 12.3076923077px;
-}
-.work .summary:empty {
-  display: none;
+.links ul li {
+  font-size: 14px;
 }
 
-.projects .header .name {
-  font-size: 18px;
-  font-weight: bold;
-  display: inline-block;
+.education .title {
+  font-size: 15px;
 }
-.projects .header .name a {
-  text-decoration-color: #222222;
+.education .institution {
+  font-size: 15px;
+  font-weight: lighter;
 }
-.projects .header .roles {
-  font-size: 16px;
-  line-height: 18px;
-  display: inline-block;
+
+.awards .header .title {
+  font-size: 15px;
 }
-.projects .description {
-  font-size: 16px;
-  padding: 0;
-  margin-top: 12.3076923077px;
+.awards .header .awarder {
+  font-size: 15px;
+  font-weight: lighter;
 }
-.projects .description:empty {
-  display: none;
+.awards .summary {
+  font-size: 14px;
+}
+
+.certificates .name {
+  font-size: 15px;
+}
+.certificates .issuer {
+  font-size: 15px;
+  font-weight: lighter;
 }
 
 .skills .section-title {
@@ -317,41 +330,6 @@ li:first-child {
 .skills .container .article li {
   font-size: 14px;
   list-style: none;
-  line-height: 1.3;
-}
-
-.education .title {
-  font-size: 15px;
-}
-.education .institution {
-  font-size: 15px;
-  font-weight: lighter;
-}
-.education .institution a {
-  text-decoration-color: #888888;
-}
-
-.certificates .name {
-  font-size: 15px;
-}
-.certificates .issuer {
-  font-size: 15px;
-  font-weight: lighter;
-  margin-top: 0.35em;
-}
-
-.awards .header .title {
-  font-size: 16px;
-  display: inline-block;
-}
-.awards .header .awarder {
-  font-size: 15px;
-  font-weight: lighter;
-  line-height: 16px;
-  display: inline-block;
-}
-.awards .summary {
-  font-size: 14px;
 }
 
 .languages ul {
@@ -368,42 +346,47 @@ li:first-child {
   font-size: 14px;
 }
 
-.links ul {
-  list-style: none;
+.references .name {
+  font-size: 15px;
 }
-.links ul li {
-  font-size: 14px;
-}</style><title>Maarten Paauw – Software Engineer</title></head><body><div class="content"><div class="basics"><div class="table"><div class="main"><span class="name">Maarten Paauw</span><span class="label">Software Engineer</span></div><div class="side"><ul class="contact"><li>+31 (0)6 578 37 765</li><li>maartenpaauw@gmail.com</li><li class="margin-text-3">Oegstgeest, Zuid-Holland, NL</li></ul></div></div><div class="summary markdown"><p>Ik ben een <strong>software engineer</strong> met een achtergrond in de grafische wereld. In 2019 ben ik afgestudeerd aan de Hogeschool Leiden in Interactie Technologie. In 2012 heb ik twee MBO-opleidingen afgerond aan het Grafisch Lyceum in Rotterdam, te weten DTP Allround en mediatechnologie. Ik ben creatief, werk nauwkeurig en ben geïnteresseerd in alles wat met development te maken heeft. Ik heb ruim <strong>vijf jaar</strong> werkervaring op het terrein van <strong>Laravel</strong> en <strong>Vue.js</strong>. Ook ben ik een echte teamspeler die makkelijk het contact met andere mensen aangaat. Doorzettingsvermogen hoort bij mijn karakter en ga graag uitdagingen aan. In een groep neem ik graag de leiding als het gaat om problemen oplossen.</p>
-</div></div><div class="table"><div class="main"><div class="work margin-container-4"><p class="section-title no-alone-2">Experience</p><div class="container"><div class="article margin-container-3"><div class="header no-alone-1"><div class="table"><div class="left"><span class="position">Backend Developer</span><span class="company-location margin-text-1"><a href="https://cronyrobots.nl/">Crony Robots</a> · Papendorpseweg 75, 3528 BJ Utrecht</span></div><div class="right"><span class="dates">Oct 2021 - Present</span></div></div></div><div class="summary markdown"><p>Werkzaamheden aan meerdere Laravel applicaties waarmee processen gerobotiseerd kunnen worden.</p>
-</div></div><div class="article margin-container-3"><div class="header no-alone-1"><div class="table"><div class="left"><span class="position">Developer</span><span class="company-location margin-text-1"><a href="https://swis.nl/">SWIS</a> · 3e Binnenvestgracht 23T1, 2312 NR Leiden</span></div><div class="right"><span class="dates">Oct 2019 - Sep 2021</span></div></div></div><div class="summary markdown"><p>Alle voorkomende werkzaamheden op het gebied van development.</p>
-</div><ul class="highlights no-break"><li>Applicaties gemaakt, in opdracht van Lely, die dagelijkse taken van een boer automatiseren.</li></ul></div><div class="article margin-container-3"><div class="header no-alone-1"><div class="table"><div class="left"><span class="position">Zelfstandig ondernemer</span><span class="company-location margin-text-1"><a href="https://appsketch.nl/">Appsketch</a> · Brouwerstraat 37, 2231 HN Rijnsburg</span></div><div class="right"><span class="dates">Jan 2012 - Dec 2019</span></div></div></div><div class="summary markdown"><p>Allround DTP en ICT-bedrijf. Complete verzorging van uw grafisch ontwerp / huisstijl en al het drukwerk, websites en applicaties. Deze werkzaamheden verrichtte ik als zelfstandig ondernemer naast mijn studie.</p>
-</div></div><div class="article margin-container-3"><div class="header no-alone-1"><div class="table"><div class="left"><span class="position">Onderzoeker patiëntmotivatie (afstudeerproject)</span><span class="company-location margin-text-1"><a href="https://basaltrevalidatie.nl/">Basalt</a> · Wassenaarseweg 501, 2333 AL Leiden</span></div><div class="right"><span class="dates">Feb 2019 - Jul 2019</span></div></div></div><div class="summary markdown"><p>Motivatie tot gebruik van digitale CROM.</p>
-</div></div><div class="article margin-container-3"><div class="header no-alone-1"><div class="table"><div class="left"><span class="position">Full Stack Developer</span><span class="company-location margin-text-1"><a href="https://devmob.com/">DevMob B.V.</a> · Schiedamsedijk 50, 3011 ED Rotterdam</span></div><div class="right"><span class="dates">Sep 2018 - Feb 2019</span></div></div></div><div class="summary markdown"><p>Stagiair full stack developer bij DevMob B.V.</p>
-</div></div><div class="article margin-container-3"><div class="header no-alone-1"><div class="table"><div class="left"><span class="position">Web developer</span><span class="company-location margin-text-1"><a href="https://gracious.nl/">Gracious Studios</a> · Laan van Waalhaven 460, 2497 GR Den Haag</span></div><div class="right"><span class="dates">Jan 2015 - May 2015</span></div></div></div><div class="summary markdown"><p>Stagiair web developer bij Gracious Studios.</p>
-</div></div><div class="article margin-container-3"><div class="header no-alone-1"><div class="table"><div class="left"><span class="position">Allround DTP-er</span><span class="company-location margin-text-1"><a href="https://duocore.nl/">Station Drukwerk</a> · Scheepmakerstraat 5-G, 2222 AB Katwijk aan Zee</span></div><div class="right"><span class="dates">Jun 2012 - Mar 2014</span></div></div></div><div class="summary markdown"><p>Alle voorkomende werkzaamheden op het gebied van DTP.</p>
-</div></div><div class="article margin-container-3"><div class="header no-alone-1"><div class="table"><div class="left"><span class="position">Allround DTP-er</span><span class="company-location margin-text-1"><a href="https://duocore.nl/">Station Drukwerk</a> · Scheepmakerstraat 5-G, 2222 AB Katwijk aan Zee</span></div><div class="right"><span class="dates">Nov 2010 - Apr 2012</span></div></div></div><div class="summary markdown"><p>Alle voorkomende werkzaamheden op het gebied van DTP als stagiair.</p>
-</div></div></div></div><div class="projects margin-container-4"><p class="section-title no-alone-2">Projects</p><div class="container"><div class="article margin-container-3"><div class="header no-alone-1"><span class="name"><a href="https://github.com/maartenpaauw/laravel-specification-pattern">Laravel specification pattern</a></span> · <span class="roles">Developer</span></div><div class="description markdown"><p>Laravel pakket voor het filteren van een collectie op basis van specificaties.</p>
-</div></div><div class="article margin-container-3"><div class="header no-alone-1"><span class="name"><a href="https://github.com/maartenpaauw/laravel-charts-css">Laravel Charts.css</a></span> · <span class="roles">Developer</span></div><div class="description markdown"><p>Laravel component voor het maken van grafieken op basis van CSS.</p>
-</div><ul class="highlights no-break"><li>Vermelding in de wekelijkse Laravel nieuwsbrief.</li></ul></div><div class="article margin-container-3"><div class="header no-alone-1"><span class="name"><a href="https://github.com/maartenpaauw/undraw">Laravel Undraw components</a></span> · <span class="roles">Developer</span></div><div class="description markdown"><p>Laravel Blade componenten voor Undraw illustraties.</p>
-</div></div><div class="article margin-container-3"><div class="header no-alone-1"><span class="name"><a href="https://github.com/home-assistant-community-themes">Home Assistant Community Themes</a></span> · <span class="roles">Developer</span></div><div class="description markdown"><p>Alle Home Assistant community thema's in één plek.</p>
-</div><ul class="highlights no-break"><li>Alle thema's zijn automatisch installeerbaar via Home Assistant Community Store.</li></ul></div><div class="article margin-container-3"><div class="header no-alone-1"><span class="name"><a href="https://npmjs.com/package/json-resume-to-vcard">JSON Resume to vCard</a></span> · <span class="roles">Developer</span></div><div class="description markdown"><p>Converteert een JSON Resume bestand naar een vCard.</p>
-</div></div><div class="article margin-container-3"><div class="header no-alone-1"><span class="name"><a href="https://npmjs.com/package/flat-ui-colors-helper">Flat UI Colors helper</a></span> · <span class="roles">Developer</span></div><div class="description markdown"><p>CSS helpers voor Flat UI Colors.</p>
-</div></div><div class="article margin-container-3"><div class="header no-alone-1"><span class="name"><a href="https://nummering.nl/">Nummering</a></span> · <span class="roles">Developer</span></div><div class="description markdown"><p>Een gemakkelijke data merge tool voor InDesign.</p>
-</div></div><div class="article margin-container-3"><div class="header no-alone-1"><span class="name"><a href="https://github.com/maartenpaauw/YoPHP">YoPHP</a></span> · <span class="roles">Developer</span></div><div class="description markdown"><p>Een PHP wrapper voor Yo.</p>
-</div><ul class="highlights no-break"><li>Een vermelding naar dit project vanuit de officiële API documentatie van Yo.</li></ul></div></div></div></div><div class="side"><div class="skills margin-container-4"><p class="section-title no-alone-1">Skills</p><div class="container"><div class="article no-break"><span>Development</span><ul class="margin-text-1"><li>CSS3</li><li>Cypress</li><li>Docker</li><li>Git</li><li>GitHub</li><li>HTML5</li><li>Javascript</li><li>Jest</li><li>MySQL</li><li>Nginx</li><li>Node.js</li><li>PHP</li><li>SCSS</li><li>Selenium</li><li>Typescript</li></ul></div><div class="article no-break"><span>Frameworks</span><ul class="margin-text-1"><li>Laravel</li><li>Vue.js</li></ul></div><div class="article no-break"><span>DTP Allround</span><ul class="margin-text-1"><li>Acrobat</li><li>Bridge</li><li>Illustrator</li><li>InDesign</li><li>Photoshop</li></ul></div></div></div><div class="education margin-container-4"><p class="section-title no-alone-1">Education</p><div class="container"><div class="article margin-container-2 no-break"><div class="title markdown"><p>Bachelor, Informatica</p>
-</div><span class="institution margin-text-1"><a href="https://hsleiden.nl/">Hogeschool Leiden</a></span></div><div class="article margin-container-2 no-break"><div class="title markdown"><p>Minor, Urban Interaction Design (UrbanlxD) HP</p>
-</div><span class="institution margin-text-1"><a href="https://hogeschoolrotterdam.nl/">Hogeschool Rotterdam</a></span></div><div class="article margin-container-2 no-break"><div class="title markdown"><p>Bachelor, Propedeuse</p>
-</div><span class="institution margin-text-1"><a href="https://hsleiden.nl/">Hogeschool Leiden</a></span></div><div class="article margin-container-2 no-break"><div class="title markdown"><p>MBO 4, Media Developer</p>
-</div><span class="institution margin-text-1"><a href="https://glr.nl/">Grafisch Lyceum Rotterdam</a></span></div><div class="article margin-container-2 no-break"><div class="title markdown"><p>MBO 3, Allround DTP-er</p>
-</div><span class="institution margin-text-1"><a href="https://glr.nl/">Grafisch Lyceum Rotterdam</a></span></div><div class="article margin-container-2 no-break"><div class="title markdown"><p>VMBO TL, Middelbaar Algemeen Voortgezet Onderwijs</p>
-</div><span class="institution margin-text-1"><a href="https://davinci.nl/">Da Vinci College</a></span></div></div></div><div class="certificates margin-container-4"><p class="section-title no-alone-1">Certificates</p><div class="container"><div class="article margin-container-2 no-break"><div class="name markdown"><a href="https://exam.laravelcert.com/is/maarten-paauw/certified-since/2020-02-23"><p>Laravel Certification</p>
-</a></div><span class="issuer">Laravel</span></div><div class="article margin-container-2 no-break"><div class="name markdown"><a href="https://github.com/maartenpaauw/resume/raw/main/certificates/UC-KK22I7C8.pdf"><p>The Complete React Web Developer Course (with Redux)</p>
-</a></div><span class="issuer">Udemy</span></div><div class="article margin-container-2 no-break"><div class="name markdown"><a href="https://github.com/maartenpaauw/resume/raw/main/certificates/UC-6BQJ0F9Y.pdf"><p>Learn what's new in PHP 7</p>
-</a></div><span class="issuer">Udemy</span></div><div class="article margin-container-2 no-break"><div class="name markdown"><a href="https://github.com/maartenpaauw/resume/raw/main/certificates/UC-E5CQ0XC0.pdf"><p>Essentials in JavaScript ES6</p>
-</a></div><span class="issuer">Udemy</span></div><div class="article margin-container-2 no-break"><div class="name markdown"><a href="https://github.com/maartenpaauw/resume/raw/main/certificates/UC-5OKCFMFF.pdf"><p>Regex Academy: An Introduction To Text Parsing Sorcery</p>
-</a></div><span class="issuer">Udemy</span></div><div class="article margin-container-2 no-break"><div class="name markdown"><a href="https://github.com/maartenpaauw/resume/raw/main/certificates/UC-FHAK48RX.pdf"><p>The Complete Node.js Developer Course</p>
-</a></div><span class="issuer">Udemy</span></div><div class="article margin-container-2 no-break"><div class="name markdown"><a href="https://github.com/maartenpaauw/resume/raw/main/certificates/UC-ZABTRLUO.pdf"><p>Vue JS 2 - The Complete Guide</p>
-</a></div><span class="issuer">Udemy</span></div><div class="article margin-container-2 no-break"><div class="name markdown"><a href="https://github.com/maartenpaauw/resume/raw/main/certificates/UC-HO61683N.pdf"><p>Vue JS - Mastering Web Apps</p>
-</a></div><span class="issuer">Udemy</span></div><div class="article margin-container-2 no-break"><div class="name markdown"><a href="https://github.com/maartenpaauw/resume/raw/main/certificates/E867-7660.pdf"><p>Microsoft Certified Professional</p>
-</a></div><span class="issuer">Microsoft</span></div><div class="article margin-container-2 no-break"><div class="name markdown"><a href="https://github.com/maartenpaauw/resume/raw/main/certificates/E867-7659.pdf"><p>Microsoft Technology Associate: Web Development Fundamentals</p>
-</a></div><span class="issuer">Microsoft</span></div></div></div><div class="languages margin-container-4 no-break"><p class="section-title no-alone-1">Languages</p><div class="container"><ul><li class="article margin-text-1">Nederlands · Moedertaal</li><li class="article margin-text-1">Engels · Uitstekend</li></ul></div></div><div class="interests margin-container-4 no-break"><p class="section-title no-alone-1">Interests</p><div class="container"><ul><li class="article margin-text-1">Films &amp; Series</li><li class="article margin-text-1">Games</li><li class="article margin-text-1">Gitaar Spelen</li><li class="article margin-text-1">Koffie</li><li class="article margin-text-1">Muziek</li><li class="article margin-text-1">Open Source</li><li class="article margin-text-1">Programmeren</li><li class="article margin-text-1">Reizen</li></ul></div></div><div class="links margin-container-4 no-break"><p class="section-title no-alone-1">Links</p><div class="container"><ul><li class="article"><a href="https://maartenpaauw.com/"><strong>maartenpaauw.com</strong></a></li><li class="article margin-text-2"><a href="https://github.com/maartenpaauw"><strong>github.com</strong>/maartenpaauw</a></li><li class="article margin-text-2"><a href="https://linkedin.com/in/paauw"><strong>linkedin.com</strong>/in/paauw</a></li><li class="article margin-text-2"><a href="https://opendor.me/@maartenpaauw"><strong>opendor.me</strong>/@maartenpaauw</a></li><li class="article margin-text-2"><a href="https://stackoverflow.com/users/2940668/maartenpaauw"><strong>stackoverflow.com</strong>/users/2940668/maartenpaauw</a></li><li class="article margin-text-2"><a href="https://t.me/maartenpaauw"><strong>t.me</strong>/maartenpaauw</a></li><li class="article margin-text-2"><a href="https://twitter.com/maartenpaauw"><strong>twitter.com</strong>/maartenpaauw</a></li></ul></div></div></div></div></div></body></html>
+.references q {
+  font-size: 14.5px;
+  font-weight: lighter;
+  font-style: italic;
+}</style><title>Resume Maarten Paauw – Software Engineer</title></head><body><div class="content"><div class="basics"><div class="table padding-container-2"><div class="main"><span class="name">Maarten Paauw</span><span class="label">Software Engineer</span></div><div class="side"><ul class="contact"><li>+31 (0)6 578 37 765</li><li>maartenpaauw@gmail.com</li><li class="margin-text-5">Oegstgeest, Zuid-Holland, NL</li></ul></div></div><div class="summary markdown padding-container-2"><p>Ik ben een <strong>software engineer</strong> met een achtergrond in de grafische wereld. In 2019 ben ik afgestudeerd aan de Hogeschool Leiden in Interactie Technologie. In 2012 heb ik twee MBO-opleidingen afgerond aan het Grafisch Lyceum in Rotterdam, te weten DTP Allround en mediatechnologie. Ik ben creatief, werk nauwkeurig en ben geïnteresseerd in alles wat met development te maken heeft. Ik heb ruim <strong>vijf jaar</strong> werkervaring op het terrein van <strong>Laravel</strong> en <strong>Vue.js</strong>. Ook ben ik een echte teamspeler die makkelijk het contact met andere mensen aangaat. Doorzettingsvermogen hoort bij mijn karakter en ga graag uitdagingen aan. In een groep neem ik graag de leiding als het gaat om problemen oplossen.</p>
+</div></div><div class="table padding-container-2"><div class="main"><div class="work margin-container-4"><p class="section-title no-alone-2">Experience</p><div class="container"><div class="article margin-container-3"><div class="header no-alone-1"><div class="table"><div class="left"><span class="title">PHP Developer</span><span class="subtitle margin-text-1"><a href="https://npo.nl/">NPO</a> · Bart de Graaffweg 2, 1217 ZL Hilversum</span></div><div class="right"><span class="date">Jul 2022 - Present</span></div></div></div><div class="summary markdown margin-text-4"><p>Back-end werkzaamheden aan applicaties van NPO Radio 1, 2, 4 en 5, NPO 3FM, FunX en NPO Luister.</p>
+</div></div><div class="article margin-container-3"><div class="header no-alone-1"><div class="table"><div class="left"><span class="title">Backend Developer</span><span class="subtitle margin-text-1"><a href="https://cronyrobots.nl/">Crony Robots</a> · Papendorpseweg 75, 3528 BJ Utrecht</span></div><div class="right"><span class="date">Oct 2021 - Jun 2022</span></div></div></div><div class="summary markdown margin-text-4"><p>Werkzaamheden aan meerdere Laravel applicaties waarmee processen gerobotiseerd kunnen worden.</p>
+</div></div><div class="article margin-container-3"><div class="header no-alone-1"><div class="table"><div class="left"><span class="title">Developer</span><span class="subtitle margin-text-1"><a href="https://swis.nl/">SWIS</a> · 3e Binnenvestgracht 23T1, 2312 NR Leiden</span></div><div class="right"><span class="date">Oct 2019 - Sep 2021</span></div></div></div><div class="summary markdown margin-text-4"><p>Alle voorkomende werkzaamheden op het gebied van development.</p>
+</div><ul class="highlights margin-text-4 no-break"><li>Applicaties gemaakt, in opdracht van Lely, die dagelijkse taken van een boer automatiseren.</li></ul></div><div class="article margin-container-3"><div class="header no-alone-1"><div class="table"><div class="left"><span class="title">Zelfstandig ondernemer</span><span class="subtitle margin-text-1"><a href="https://appsketch.nl/">Appsketch</a> · Brouwerstraat 37, 2231 HN Rijnsburg</span></div><div class="right"><span class="date">Jan 2012 - Dec 2019</span></div></div></div><div class="summary markdown margin-text-4"><p>Allround DTP en ICT-bedrijf. Complete verzorging van uw grafisch ontwerp / huisstijl en al het drukwerk, websites en applicaties. Deze werkzaamheden verrichtte ik als zelfstandig ondernemer naast mijn studie.</p>
+</div></div><div class="article margin-container-3"><div class="header no-alone-1"><div class="table"><div class="left"><span class="title">Onderzoeker patiëntmotivatie (afstudeerproject)</span><span class="subtitle margin-text-1"><a href="https://basaltrevalidatie.nl/">Basalt</a> · Wassenaarseweg 501, 2333 AL Leiden</span></div><div class="right"><span class="date">Feb 2019 - Jul 2019</span></div></div></div><div class="summary markdown margin-text-4"><p>Motivatie tot gebruik van digitale CROM.</p>
+</div></div><div class="article margin-container-3"><div class="header no-alone-1"><div class="table"><div class="left"><span class="title">Full Stack Developer</span><span class="subtitle margin-text-1"><a href="https://devmob.com/">DevMob B.V.</a> · Schiedamsedijk 50, 3011 ED Rotterdam</span></div><div class="right"><span class="date">Sep 2018 - Feb 2019</span></div></div></div><div class="summary markdown margin-text-4"><p>Stagiair full stack developer bij DevMob B.V.</p>
+</div></div><div class="article margin-container-3"><div class="header no-alone-1"><div class="table"><div class="left"><span class="title">Web developer</span><span class="subtitle margin-text-1"><a href="https://gracious.nl/">Gracious Studios</a> · Laan van Waalhaven 460, 2497 GR Den Haag</span></div><div class="right"><span class="date">Jan 2015 - May 2015</span></div></div></div><div class="summary markdown margin-text-4"><p>Stagiair web developer bij Gracious Studios.</p>
+</div></div><div class="article margin-container-3"><div class="header no-alone-1"><div class="table"><div class="left"><span class="title">Allround DTP-er</span><span class="subtitle margin-text-1"><a href="https://duocore.nl/">Station Drukwerk</a> · Scheepmakerstraat 5-G, 2222 AB Katwijk aan Zee</span></div><div class="right"><span class="date">Jun 2012 - Mar 2014</span></div></div></div><div class="summary markdown margin-text-4"><p>Alle voorkomende werkzaamheden op het gebied van DTP.</p>
+</div></div><div class="article margin-container-3"><div class="header no-alone-1"><div class="table"><div class="left"><span class="title">Allround DTP-er</span><span class="subtitle margin-text-1"><a href="https://duocore.nl/">Station Drukwerk</a> · Scheepmakerstraat 5-G, 2222 AB Katwijk aan Zee</span></div><div class="right"><span class="date">Nov 2010 - Apr 2012</span></div></div></div><div class="summary markdown margin-text-4"><p>Alle voorkomende werkzaamheden op het gebied van DTP als stagiair.</p>
+</div></div></div></div><div class="projects margin-container-4"><p class="section-title no-alone-2">Projects</p><div class="container"><div class="article margin-container-3"><div class="header no-alone-1"><div class="table"><div class="left"><span class="title">Developer</span><span class="subtitle margin-text-1"><a href="https://github.com/maartenpaauw/laravel-specification-pattern">Laravel specification pattern</a></span></div><div class="right"><span class="date">Jan 2022 - Present</span></div></div></div><div class="summary markdown margin-text-4"><p>Laravel pakket voor het filteren van een collectie op basis van specificaties.</p>
+</div></div><div class="article margin-container-3"><div class="header no-alone-1"><div class="table"><div class="left"><span class="title">Developer</span><span class="subtitle margin-text-1"><a href="https://github.com/maartenpaauw/laravel-charts-css">Laravel Charts.css</a></span></div><div class="right"><span class="date">May 2021 - Present</span></div></div></div><div class="summary markdown margin-text-4"><p>Laravel component voor het maken van grafieken op basis van CSS.</p>
+</div><ul class="highlights margin-text-4 no-break"><li>Vermelding in de wekelijkse Laravel nieuwsbrief.</li></ul></div><div class="article margin-container-3"><div class="header no-alone-1"><div class="table"><div class="left"><span class="title">Developer</span><span class="subtitle margin-text-1"><a href="https://github.com/maartenpaauw/undraw">Laravel Undraw components</a></span></div><div class="right"><span class="date">May 2020 - Present</span></div></div></div><div class="summary markdown margin-text-4"><p>Laravel Blade componenten voor Undraw illustraties.</p>
+</div></div><div class="article margin-container-3"><div class="header no-alone-1"><div class="table"><div class="left"><span class="title">Developer</span><span class="subtitle margin-text-1"><a href="https://github.com/home-assistant-community-themes">Home Assistant Community Themes</a></span></div><div class="right"><span class="date">Feb 2018 - Present</span></div></div></div><div class="summary markdown margin-text-4"><p>Alle Home Assistant community thema's in één plek.</p>
+</div><ul class="highlights margin-text-4 no-break"><li>Alle thema's zijn automatisch installeerbaar via Home Assistant Community Store.</li></ul></div><div class="article margin-container-3"><div class="header no-alone-1"><div class="table"><div class="left"><span class="title">Developer</span><span class="subtitle margin-text-1"><a href="https://npmjs.com/package/json-resume-to-vcard">JSON Resume to vCard</a></span></div><div class="right"><span class="date">Jan 2018 - Present</span></div></div></div><div class="summary markdown margin-text-4"><p>Converteert een JSON Resume bestand naar een vCard.</p>
+</div></div><div class="article margin-container-3"><div class="header no-alone-1"><div class="table"><div class="left"><span class="title">Developer</span><span class="subtitle margin-text-1"><a href="https://npmjs.com/package/flat-ui-colors-helper">Flat UI Colors helper</a></span></div><div class="right"><span class="date">Aug 2017 - Present</span></div></div></div><div class="summary markdown margin-text-4"><p>CSS helpers voor Flat UI Colors.</p>
+</div></div><div class="article margin-container-3"><div class="header no-alone-1"><div class="table"><div class="left"><span class="title">Developer</span><span class="subtitle margin-text-1"><a href="https://nummering.nl/">Nummering</a></span></div><div class="right"><span class="date">Jun 2017 - Present</span></div></div></div><div class="summary markdown margin-text-4"><p>Een gemakkelijke data merge tool voor InDesign.</p>
+</div></div><div class="article margin-container-3"><div class="header no-alone-1"><div class="table"><div class="left"><span class="title">Developer</span><span class="subtitle margin-text-1"><a href="https://github.com/maartenpaauw/YoPHP">YoPHP</a></span></div><div class="right"><span class="date">Aug 2014 - Present</span></div></div></div><div class="summary markdown margin-text-4"><p>Een PHP wrapper voor Yo.</p>
+</div><ul class="highlights margin-text-4 no-break"><li>Een vermelding naar dit project vanuit de officiële API documentatie van Yo.</li></ul></div></div></div><div class="volunteer margin-container-4"><p class="section-title no-alone-2">Volunteer</p><div class="container"><div class="article margin-container-3"><div class="header no-alone-1"><div class="table"><div class="left"><span class="title">Hoofdbegeleider Wildevaert</span><span class="subtitle margin-text-1"><a href="https://katwijksezeeverkenners.nl/">Katwijkse Zeeverkenners</a></span></div><div class="right"><span class="date">Sep 2012 - Feb 2014</span></div></div></div><div class="summary markdown margin-text-4"><p>Hoofdbegeleider op de Wildevaert groep binnen de Katwijkse Zeeverkenners.</p>
+</div></div><div class="article margin-container-3"><div class="header no-alone-1"><div class="table"><div class="left"><span class="title">Voorzitter Wildevaert</span><span class="subtitle margin-text-1"><a href="https://katwijksezeeverkenners.nl/">Katwijkse Zeeverkenners</a></span></div><div class="right"><span class="date">Sep 2011 - Sep 2012</span></div></div></div><div class="summary markdown margin-text-4"><p>Voorzitter op de Wildevaert groep binnen de Katwijkse Zeeverkenners.</p>
+</div></div></div></div></div><div class="side"><div class="skills margin-container-4"><p class="section-title no-alone-1">Skills</p><div class="container"><div class="article no-break"><span>Development</span><ul class="margin-text-2"><li>CSS3</li><li>Cypress</li><li>Docker</li><li>Git</li><li>GitHub</li><li>HTML5</li><li>Javascript</li><li>Jest</li><li>MySQL</li><li>Nginx</li><li>Node.js</li><li>PHP</li><li>SCSS</li><li>Selenium</li><li>Typescript</li></ul></div><div class="article no-break"><span>Frameworks</span><ul class="margin-text-2"><li>Laravel</li><li>Vue.js</li></ul></div><div class="article no-break"><span>DTP Allround</span><ul class="margin-text-2"><li>Acrobat</li><li>Bridge</li><li>Illustrator</li><li>InDesign</li><li>Photoshop</li></ul></div></div></div><div class="education margin-container-4"><p class="section-title no-alone-1">Education</p><div class="container"><div class="article margin-container-2 no-break"><div class="title markdown"><p>Bachelor, Informatica</p>
+</div><span class="institution margin-text-2"><a href="https://hsleiden.nl/">Hogeschool Leiden</a></span></div><div class="article margin-container-2 no-break"><div class="title markdown"><p>Minor, Urban Interaction Design (UrbanlxD) HP</p>
+</div><span class="institution margin-text-2"><a href="https://hogeschoolrotterdam.nl/">Hogeschool Rotterdam</a></span></div><div class="article margin-container-2 no-break"><div class="title markdown"><p>Bachelor, Propedeuse</p>
+</div><span class="institution margin-text-2"><a href="https://hsleiden.nl/">Hogeschool Leiden</a></span></div><div class="article margin-container-2 no-break"><div class="title markdown"><p>MBO 4, Media Developer</p>
+</div><span class="institution margin-text-2"><a href="https://glr.nl/">Grafisch Lyceum Rotterdam</a></span></div><div class="article margin-container-2 no-break"><div class="title markdown"><p>MBO 3, Allround DTP-er</p>
+</div><span class="institution margin-text-2"><a href="https://glr.nl/">Grafisch Lyceum Rotterdam</a></span></div><div class="article margin-container-2 no-break"><div class="title markdown"><p>VMBO TL, Middelbaar Algemeen Voortgezet Onderwijs</p>
+</div><span class="institution margin-text-2"><a href="https://davinci.nl/">Da Vinci College</a></span></div></div></div><div class="certificates margin-container-4"><p class="section-title no-alone-1">Certificates</p><div class="container"><div class="article margin-container-2 no-break"><div class="name markdown"><a href="https://exam.laravelcert.com/is/maarten-paauw/certified-since/2020-02-23"><p>Laravel Certification</p>
+</a></div><span class="issuer margin-text-2">Laravel</span></div><div class="article margin-container-2 no-break"><div class="name markdown"><a href="https://github.com/maartenpaauw/resume/raw/main/certificates/UC-KK22I7C8.pdf"><p>The Complete React Web Developer Course (with Redux)</p>
+</a></div><span class="issuer margin-text-2">Udemy</span></div><div class="article margin-container-2 no-break"><div class="name markdown"><a href="https://github.com/maartenpaauw/resume/raw/main/certificates/UC-6BQJ0F9Y.pdf"><p>Learn what's new in PHP 7</p>
+</a></div><span class="issuer margin-text-2">Udemy</span></div><div class="article margin-container-2 no-break"><div class="name markdown"><a href="https://github.com/maartenpaauw/resume/raw/main/certificates/UC-E5CQ0XC0.pdf"><p>Essentials in JavaScript ES6</p>
+</a></div><span class="issuer margin-text-2">Udemy</span></div><div class="article margin-container-2 no-break"><div class="name markdown"><a href="https://github.com/maartenpaauw/resume/raw/main/certificates/UC-5OKCFMFF.pdf"><p>Regex Academy: An Introduction To Text Parsing Sorcery</p>
+</a></div><span class="issuer margin-text-2">Udemy</span></div><div class="article margin-container-2 no-break"><div class="name markdown"><a href="https://github.com/maartenpaauw/resume/raw/main/certificates/UC-FHAK48RX.pdf"><p>The Complete Node.js Developer Course</p>
+</a></div><span class="issuer margin-text-2">Udemy</span></div><div class="article margin-container-2 no-break"><div class="name markdown"><a href="https://github.com/maartenpaauw/resume/raw/main/certificates/UC-ZABTRLUO.pdf"><p>Vue JS 2 - The Complete Guide</p>
+</a></div><span class="issuer margin-text-2">Udemy</span></div><div class="article margin-container-2 no-break"><div class="name markdown"><a href="https://github.com/maartenpaauw/resume/raw/main/certificates/UC-HO61683N.pdf"><p>Vue JS - Mastering Web Apps</p>
+</a></div><span class="issuer margin-text-2">Udemy</span></div><div class="article margin-container-2 no-break"><div class="name markdown"><a href="https://github.com/maartenpaauw/resume/raw/main/certificates/E867-7660.pdf"><p>Microsoft Certified Professional</p>
+</a></div><span class="issuer margin-text-2">Microsoft</span></div><div class="article margin-container-2 no-break"><div class="name markdown"><a href="https://github.com/maartenpaauw/resume/raw/main/certificates/E867-7659.pdf"><p>Microsoft Technology Associate: Web Development Fundamentals</p>
+</a></div><span class="issuer margin-text-2">Microsoft</span></div></div></div><div class="languages margin-container-4 no-break"><p class="section-title no-alone-1">Languages</p><div class="container"><ul><li class="article margin-text-2">Nederlands · Moedertaal</li><li class="article margin-text-2">Engels · Uitstekend</li></ul></div></div><div class="interests margin-container-4 no-break"><p class="section-title no-alone-1">Interests</p><div class="container"><ul><li class="article margin-text-2">Films &amp; Series</li><li class="article margin-text-2">Games</li><li class="article margin-text-2">Gitaar Spelen</li><li class="article margin-text-2">Koffie</li><li class="article margin-text-2">Muziek</li><li class="article margin-text-2">Open Source</li><li class="article margin-text-2">Programmeren</li><li class="article margin-text-2">Reizen</li></ul></div></div><div class="links margin-container-4 no-break"><p class="section-title no-alone-1">Links</p><div class="container"><ul><li class="article"><a href="https://maartenpaauw.com/"><strong>maartenpaauw.com</strong></a></li><li class="article margin-text-4"><a href="https://github.com/maartenpaauw"><strong>github.com</strong>/maartenpaauw</a></li><li class="article margin-text-4"><a href="https://linkedin.com/in/paauw"><strong>linkedin.com</strong>/in/paauw</a></li><li class="article margin-text-4"><a href="https://opendor.me/@maartenpaauw"><strong>opendor.me</strong>/@maartenpaauw</a></li><li class="article margin-text-4"><a href="https://stackoverflow.com/users/2940668/maartenpaauw"><strong>stackoverflow.com</strong>/users/2940668/maartenpaauw</a></li><li class="article margin-text-4"><a href="https://t.me/maartenpaauw"><strong>t.me</strong>/maartenpaauw</a></li><li class="article margin-text-4"><a href="https://twitter.com/maartenpaauw"><strong>twitter.com</strong>/maartenpaauw</a></li></ul></div></div></div></div></div></body></html>

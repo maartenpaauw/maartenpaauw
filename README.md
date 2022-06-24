@@ -1,6 +1,6 @@
 ## Hi there 👋
 
->  I'm a Software Engineer who currently works at [Crony Robots](https://www.cronyrobots.nl/).
+>  I'm a Software Engineer who will start at the [NPO](https://www.npo.nl/) in July.
 
 ### Contact
 
