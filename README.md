@@ -1,6 +1,6 @@
 ## Hi there 👋
 
->  I'm a Software Engineer who will start at the [NPO](https://over.npo.nl/) in July.
+>  I'm a Software Engineer who works at the [NPO](https://over.npo.nl/).
 
 ### Contact
 
