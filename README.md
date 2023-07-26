@@ -4,7 +4,7 @@
 
 ### Current side project
 
-Hybride.place, manage your office visits by checking in and seeing which of your teammates are also planning to visit the office.
+[Hybride.place](https://hybride.place/), a Slack application to manage your office visits by checking in and seeing which of your teammates are also planning to visit the office.
 
 <p align="center">
     <a href="https://hybride.place" target="_blank">
