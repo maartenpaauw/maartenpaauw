@@ -150,26 +150,6 @@
       "highlights": []
     }
   ],
-  "volunteer": [
-    {
-      "organization": "Katwijkse Zeeverkenners",
-      "position": "Hoofdbegeleider Wildevaert",
-      "url": "https://katwijksezeeverkenners.nl/",
-      "startDate": "2012-09-01",
-      "endDate": "2014-02-01",
-      "summary": "Hoofdbegeleider op de Wildevaert groep binnen de Katwijkse Zeeverkenners.",
-      "highlights": []
-    },
-    {
-      "organization": "Katwijkse Zeeverkenners",
-      "position": "Voorzitter Wildevaert",
-      "url": "https://katwijksezeeverkenners.nl/",
-      "startDate": "2011-09-01",
-      "endDate": "2012-09-01",
-      "summary": "Voorzitter op de Wildevaert groep binnen de Katwijkse Zeeverkenners.",
-      "highlights": []
-    }
-  ],
   "education": [
     {
       "institution": "Hogeschool Leiden",
@@ -387,6 +367,23 @@
   ],
   "references": [],
   "projects": [
+    {
+      "name": "Hybride.place",
+      "description": "Slack applicatie waar medewerkers kunnen aangeven of men thuis of op kantoor werkt.",
+      "highlights": [],
+      "keywords": [
+        "Laravel",
+        "PHP",
+        "Slack"
+      ],
+      "startDate": "2023-03-30",
+      "url": "https://hybride.place",
+      "roles": [
+        "Developer"
+      ],
+      "entity": "Personal",
+      "type": "Side project"
+    },
     {
       "name": "Laravel specification pattern",
       "description": "Laravel pakket voor het filteren van een collectie op basis van specificaties.",
