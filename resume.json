@@ -368,6 +368,57 @@
   "references": [],
   "projects": [
     {
+      "name": "Model States for Filament",
+      "description": "Integreer model statussen en overgangen in Filament PHP.",
+      "highlights": [],
+      "keywords": [
+        "Laravel",
+        "Filament PHP",
+        "PHP"
+      ],
+      "startDate": "2024-04-15",
+      "url": "https://filamentphp.com/plugins/maartenpaauw-model-states",
+      "roles": [
+        "Developer"
+      ],
+      "entity": "Personal",
+      "type": "Filament Plug-in"
+    },
+    {
+      "name": "Cashier Billing Provider for Filament",
+      "description": "Integreer Laravel Cashier Stripe-ondersteuning in Filament PHP.",
+      "highlights": [],
+      "keywords": [
+        "Laravel",
+        "Filament PHP",
+        "PHP"
+      ],
+      "startDate": "2024-03-20",
+      "url": "https://filamentphp.com/plugins/maartenpaauw-cashier-billing-provider",
+      "roles": [
+        "Developer"
+      ],
+      "entity": "Personal",
+      "type": "Filament Plug-in"
+    },
+    {
+      "name": "Pennant for Filament",
+      "description": "Integreert feature flags van Laravel Pennant in Filament PHP.",
+      "highlights": [],
+      "keywords": [
+        "Laravel",
+        "Filament PHP",
+        "PHP"
+      ],
+      "startDate": "2023-08-21",
+      "url": "https://filamentphp.com/plugins/maartenpaauw-pennant",
+      "roles": [
+        "Developer"
+      ],
+      "entity": "Personal",
+      "type": "Filament Plug-in"
+    },
+    {
       "name": "Hybride.place",
       "description": "Slack applicatie waar medewerkers kunnen aangeven of men thuis of op kantoor werkt.",
       "highlights": [],
