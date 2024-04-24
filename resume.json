@@ -487,55 +487,6 @@
       "type": "Web Development"
     },
     {
-      "name": "Home Assistant Community Themes",
-      "description": "Alle Home Assistant community thema's in één plek.",
-      "highlights": [
-        "Alle thema's zijn automatisch installeerbaar via Home Assistant Community Store."
-      ],
-      "keywords": [
-        "Home Assistant"
-      ],
-      "startDate": "2018-02-05",
-      "url": "https://github.com/home-assistant-community-themes",
-      "roles": [
-        "Developer"
-      ],
-      "entity": "Personal",
-      "type": "Home Automation"
-    },
-    {
-      "name": "JSON Resume to vCard",
-      "description": "Converteert een JSON Resume bestand naar een vCard.",
-      "highlights": [],
-      "keywords": [
-        "JavaScript",
-        "Node.js"
-      ],
-      "startDate": "2018-01-15",
-      "url": "https://npmjs.com/package/json-resume-to-vcard",
-      "roles": [
-        "Developer"
-      ],
-      "entity": "Personal",
-      "type": "Web Development"
-    },
-    {
-      "name": "Flat UI Colors helper",
-      "description": "CSS helpers voor Flat UI Colors.",
-      "highlights": [],
-      "keywords": [
-        "CSS",
-        "SCSS"
-      ],
-      "startDate": "2017-08-20",
-      "url": "https://npmjs.com/package/flat-ui-colors-helper",
-      "roles": [
-        "Developer"
-      ],
-      "entity": "Personal",
-      "type": "Web Development"
-    },
-    {
       "name": "Nummering",
       "description": "Een gemakkelijke data merge tool voor InDesign.",
       "highlights": [],
@@ -544,23 +495,6 @@
       ],
       "startDate": "2017-06-01",
       "url": "https://nummering.nl/",
-      "roles": [
-        "Developer"
-      ],
-      "entity": "Personal",
-      "type": "Web Development"
-    },
-    {
-      "name": "YoPHP",
-      "description": "Een PHP wrapper voor Yo.",
-      "highlights": [
-        "Een vermelding naar dit project vanuit de officiële API documentatie van Yo."
-      ],
-      "keywords": [
-        "PHP"
-      ],
-      "startDate": "2014-08-18",
-      "url": "https://github.com/maartenpaauw/YoPHP",
       "roles": [
         "Developer"
       ],
