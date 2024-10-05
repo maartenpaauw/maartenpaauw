@@ -19,7 +19,7 @@ which makes transitioning, listing, and filtering states effortless tasks.
 
 - [Pennant for Filament](https://filamentphp.com/plugins/maartenpaauw-pennant), a powerful package that seamlessly
   integrates feature flags from Laravel Pennant.
-- [Hybride.place](https://hybride.place), a Slack application to manage your office visits by checking in and seeing
+- [Hybride.place](https://hybride.place?ref=github), a Slack application to manage your office visits by checking in and seeing
   which of your teammates are also planning to visit the office.
 
 ### Contact
