@@ -4,10 +4,10 @@
     "name": "Maarten Paauw",
     "label": "Software Engineer",
     "image": "https://github.com/maartenpaauw.png?size=500",
-    "email": "maartenpaauw@gmail.com",
+    "email": "maarten@paauw.dev",
     "phone": "+31 (0)6 578 37 765",
     "url": "https://maartenpaauw.com/",
-    "summary": "Ik ben een **software engineer** met een achtergrond in de grafische wereld. In 2019 ben ik afgestudeerd aan de Hogeschool Leiden in Interactie Technologie. In 2012 heb ik twee MBO-opleidingen afgerond aan het Grafisch Lyceum in Rotterdam, te weten DTP Allround en mediatechnologie. Ik ben creatief, werk nauwkeurig en ben geïnteresseerd in alles wat met development te maken heeft. Ik heb ruim **tien jaar** werkervaring op het terrein van **Laravel** en **Vue.js**. Ook ben ik een echte teamspeler die makkelijk het contact met andere mensen aangaat. Doorzettingsvermogen hoort bij mijn karakter en ga graag uitdagingen aan. In een groep neem ik graag de leiding als het gaat om problemen oplossen.",
+    "summary": "Ik ben een ervaren **software engineer** met een sterke focus op **PHP** en het **Laravel** framework, ondersteund door meer dan een decennium aan professionele ervaring. Tijdens mijn carrière heb ik gewerkt aan uiteenlopende projecten, variërend van complexe back-end oplossingen voor de **Nederlandse Publieke Omroep (NPO)**, waaronder stemapplicaties voor toplijsten en dashboards voor radiostations, tot automatiseringsoplossingen voor de agrarische sector in samenwerking met **SWIS**. Daarnaast heb ik bij **Crony Robots** bijgedragen aan de ontwikkeling van innovatieve Laravel-gebaseerde applicaties die procesautomatisering mogelijk maken. Als zelfstandig ontwikkelaar heb ik succesvolle projecten en producten gelanceerd, zoals **Filament PHP plugins** en **Hybride.place**, een Slack-gebaseerde tool voor hybride werken. Mijn aanpak combineert technische expertise, probleemoplossend vermogen en een resultaatgerichte mentaliteit, wat mij in staat stelt schaalbare en betrouwbare oplossingen te bouwen. Met mijn diepgaande kennis van PHP en Laravel lever ik waardevolle bijdragen aan elk team of project.",
     "location": {
       "address": "Kleyn Proffijtlaan 28",
       "postalCode": "2343 KB",
@@ -42,13 +42,23 @@
         "url": "https://t.me/maartenpaauw"
       },
       {
-        "network": "Twitter",
+        "network": "X",
         "username": "maartenpaauw",
-        "url": "https://twitter.com/maartenpaauw"
+        "url": "https://x.com/maartenpaauw"
       }
     ]
   },
   "work": [
+    {
+      "name": "Paauw.dev",
+      "location": "Kleyn Proffijtlaan 28, 2343 KB Oegstgeest",
+      "description": "Ontwikkeling en verkoop van software.",
+      "position": "Software Engineer",
+      "url": "https://paauw.dev",
+      "startDate": "2025-01-01",
+      "summary": "Ontwikkeling en verkoop van Filament PHP plugins, Hybride.place en Marktmeester.app.",
+      "highlights": []
+    },
     {
       "name": "NPO",
       "location": "Bart de Graaffweg 2, 1217 ZL Hilversum",
@@ -57,7 +67,11 @@
       "url": "https://over.npo.nl/",
       "startDate": "2022-07-01",
       "summary": "Back-end werkzaamheden aan applicaties van NPO Radio 1, 2, 4 en 5, NPO 3FM, FunX en NPO Luister.",
-      "highlights": []
+      "highlights": [
+        "Ontwikkelen van een stemapplicatie voor toplijsten, zoals de Top 2000.",
+        "Vervangen van de koppeling voor actuele radioprogrammering op NPO-websites.",
+        "Herbouw van een dashboard voor dj's om luisteraars-berichten te ontvangen."
+      ]
     },
     {
       "name": "Crony Robots",
@@ -137,17 +151,6 @@
       "endDate": "2014-03-01",
       "summary": "Alle voorkomende werkzaamheden op het gebied van DTP.",
       "highlights": []
-    },
-    {
-      "name": "Station Drukwerk",
-      "location": "Scheepmakerstraat 5-G, 2222 AB Katwijk aan Zee",
-      "description": "Drukwerk, Creatie & Signmaking - Wij maken jouw communicatie tastbaar en zichtbaar.",
-      "position": "Allround DTP-er",
-      "url": "https://duocore.nl/",
-      "startDate": "2010-11-01",
-      "endDate": "2012-04-01",
-      "summary": "Alle voorkomende werkzaamheden op het gebied van DTP als stagiair.",
-      "highlights": []
     }
   ],
   "education": [
@@ -199,16 +202,6 @@
       "startDate": "2009-09-01",
       "endDate": "2012-07-01",
       "score": "https://github.com/maartenpaauw/resume/raw/main/diplomas/grafisch-lyceum-rotterdam-allround-dtp-er-mbo-3.pdf",
-      "courses": []
-    },
-    {
-      "institution": "Da Vinci College",
-      "url": "https://davinci.nl/",
-      "area": "Middelbaar Algemeen Voortgezet Onderwijs",
-      "studyType": "VMBO TL",
-      "startDate": "2005-09-01",
-      "endDate": "2009-07-01",
-      "score": "https://github.com/maartenpaauw/resume/raw/main/diplomas/da-vinci-college-middelbaar-algemeen-voortgezet-onderwijs-vmbo-tl.pdf",
       "courses": []
     }
   ],
@@ -336,6 +329,7 @@
     {
       "name": "Games",
       "keywords": [
+        "Counter-Strike 2",
         "Counter-Strike: Global Offensive",
         "Valorant"
       ]
@@ -402,6 +396,23 @@
       "type": "Filament Plug-in"
     },
     {
+      "name": "Marktmeester.app",
+      "description": "Webapplicatie voor het organiseren van braderieën, inclusief inschrijvingen en betalingen.",
+      "highlights": [],
+      "keywords": [
+        "Laravel",
+        "PHP",
+        "Filament"
+      ],
+      "startDate": "2023-09-18",
+      "url": "https://marktmeester.app",
+      "roles": [
+        "Developer"
+      ],
+      "entity": "Personal",
+      "type": "Side Project"
+    },
+    {
       "name": "Pennant for Filament",
       "description": "Integreert feature flags van Laravel Pennant in Filament PHP.",
       "highlights": [],
@@ -433,7 +444,7 @@
         "Developer"
       ],
       "entity": "Personal",
-      "type": "Side project"
+      "type": "Side Project"
     },
     {
       "name": "Laravel specification pattern",
@@ -449,7 +460,7 @@
         "Developer"
       ],
       "entity": "Personal",
-      "type": "Web Development"
+      "type": "Package"
     },
     {
       "name": "Laravel Charts.css",
@@ -468,7 +479,7 @@
         "Developer"
       ],
       "entity": "Personal",
-      "type": "Web Development"
+      "type": "Package"
     },
     {
       "name": "Laravel Undraw components",
@@ -484,27 +495,12 @@
         "Developer"
       ],
       "entity": "Personal",
-      "type": "Web Development"
-    },
-    {
-      "name": "Nummering",
-      "description": "Een gemakkelijke data merge tool voor InDesign.",
-      "highlights": [],
-      "keywords": [
-        "Vue.js"
-      ],
-      "startDate": "2017-06-01",
-      "url": "https://nummering.nl/",
-      "roles": [
-        "Developer"
-      ],
-      "entity": "Personal",
-      "type": "Web Development"
+      "type": "Package"
     }
   ],
   "meta": {
     "canonical": "https://raw.githubusercontent.com/maartenpaauw/resume/main/resume.json",
-    "version": "v1.6.0",
-    "lastModified": "2024-04-24T21:51:43"
+    "version": "v1.7.0",
+    "lastModified": "2025-01-26T16:31:55"
   }
 }
