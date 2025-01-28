@@ -101,7 +101,6 @@
       "location": "Brouwerstraat 37, 2231 HN Rijnsburg",
       "description": "DTP en ICT.",
       "position": "Zelfstandig ondernemer",
-      "url": "https://appsketch.nl/",
       "startDate": "2012-01-01",
       "endDate": "2019-12-31",
       "summary": "Allround DTP en ICT-bedrijf. Complete verzorging van uw grafisch ontwerp / huisstijl en al het drukwerk, websites en applicaties. Deze werkzaamheden verrichtte ik als zelfstandig ondernemer naast mijn studie.",
@@ -208,7 +207,6 @@
     {
       "name": "Laravel Certification",
       "date": "2020-02-23",
-      "url": "https://exam.laravelcert.com/is/maarten-paauw/certified-since/2020-02-23",
       "issuer": "Laravel"
     },
     {
@@ -498,7 +496,7 @@
   ],
   "meta": {
     "canonical": "https://raw.githubusercontent.com/maartenpaauw/resume/main/resume.json",
-    "version": "v1.7.1",
-    "lastModified": "2025-01-28T14:19:10"
+    "version": "v1.7.2",
+    "lastModified": "2025-01-28T14:27:22"
   }
 }
